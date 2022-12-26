@@ -277,7 +277,9 @@ footer .footer-logos img{
     height: 30px;
 }
 
-.boton {
+ */
+
+ .boton {
     display: flex;
     height: 40px;
     justify-content: center;
@@ -289,7 +291,7 @@ footer .footer-logos img{
     color: white;
     margin-right: 18px;
     font-size: 18px;
-} */
+}
 /*aqui empiezan estilos producto*/
 
 .contenedor-producto{
@@ -493,3 +495,91 @@ justify-content: space-around;
 .carrito-costos span{
     margin-bottom: 15px;
 }
+
+
+/* medidas cel */
+@media (max-width: 480px) {
+   .banner{
+    height: 200px;
+    overflow-x: hidden;
+   }
+
+   .navLinks .link{
+    height: 40%;
+   }
+   .navLinks .nav{
+    height: 60%;
+   }
+   header nav ul{
+    justify-content: center!important;
+    padding-top: 5px;
+   }
+   header nav ul li{
+    height: 25px;
+    margin-bottom: 5px;
+   }
+   header nav ul li a{
+   font-size: 12px;
+   }
+   header .navLogo img {
+    height: 40%;
+   }
+   .contenedor {
+    padding: 10px;
+   }
+   .contenedor-ofertas .oferta{
+    margin-bottom: 30px;
+   }
+   .contenedor-vendidos{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+   }
+   .contenedor-vendidos .vendido{
+    width: 500px;
+   }
+
+   footer{
+    height: 100px;
+   }
+
+
+   #contenedor-catalogo{
+    justify-content: center;
+   }
+   #contenedor-catalogo .tarjeta-producto {
+   width: 500px;
+   }
+   #contenedor-catalogo .tarjeta-producto a{
+   width: 100%;
+   }
+   #contenedor-catalogo .tarjeta-producto a img{
+   width: 500px;
+   }
+
+   .carrito-datos{
+    margin-top: 20px;
+   }
+   .contenedor-carrito .comentario {
+    margin-bottom: 30px;
+   }
+   .comentarios{
+    font-size: 12px;
+   }
+
+
+   .boton{
+    font-size: 12px;
+   }
+   .link input{
+    width: 80px;
+   }
+  }
+  
+  /* medias tablet */
+  @media (max-width: 600px) {
+      .facet_sidebar {
+        display: none;
+      }
+    }
+

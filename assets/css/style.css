@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 h2{
-    font-family:'Bebas Neue', cursive;
-    font-size:3rem;
+    font-family:'Bebas Neue', cursive!important;
+    font-size:3rem!important;
 }
 
 body{
@@ -210,7 +210,10 @@ footer .footer-logos img{
 }
 
 /* EMPIEZAN ESTILOS FORMULARIO */
-.formRegister{
+.bgForm{
+    background:rgb(215, 228, 239);
+}
+/* .formRegister{
     display: flex;
     width: 100%;
     height:400px;
@@ -286,7 +289,7 @@ footer .footer-logos img{
     color: white;
     margin-right: 18px;
     font-size: 18px;
-}
+} */
 /*aqui empiezan estilos producto*/
 
 .contenedor-producto{
@@ -433,6 +436,7 @@ justify-content: space-around;
     display: flex;
     width: 250px;
     height: 250px;
+    margin-bottom: 25px;
     border-radius: 8px;
     box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);

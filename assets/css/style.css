@@ -16,17 +16,6 @@ h2{
 }
 
 
-/* .bodyIndex{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 150px 600px 900px 150px;
-    grid-template-areas: "header     header"
-                         "banner     banner"
-                         "contenedor contenedor"
-                         "footer     footer";
-
-} */
-
 body{
     font-family: 'Quicksand', sans-serif;
 }
@@ -149,6 +138,7 @@ header nav ul li a{
     align-items: center;
     height: 25%;
     width: 100%;
+    overflow-y: auto;
     
 }
 .contenedor-ofertas .oferta .oferta-imagen img{

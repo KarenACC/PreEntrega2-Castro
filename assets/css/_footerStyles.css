@@ -15,11 +15,11 @@ footer .footer-info {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 50%;
   height: 100%;
 }
@@ -29,11 +29,11 @@ footer .footer-logos {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 50%;
   height: 100%;
 }
@@ -43,4 +43,5 @@ footer .footer-logos img {
   height: 30px;
   margin: 5px;
 }
+
 /*# sourceMappingURL=footerStyles.css.map */

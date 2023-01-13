@@ -122,6 +122,8 @@ footer .footer-info {
           align-items: center;
   width: 50%;
   height: 100%;
+  font-size: 15px;
+  text-align: center;
 }
 
 footer .footer-logos {
@@ -295,6 +297,7 @@ body {
   height: 25%;
   width: 100%;
   overflow-y: auto;
+  padding: 8px;
 }
 
 .contenedor-ofertas .oferta .oferta-imagen img {
@@ -347,6 +350,7 @@ body {
   height: 25%;
   width: 100%;
   overflow-y: auto;
+  padding: 6px;
 }
 
 .contenedor-vendidos .vendido .vendido-imagen img {
